@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headercontainter{
+    width:900px;
+    height: 300px;
+    border: 8px solid;
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:100%;
+}
+.boxes{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+.box1{
+    flex:1;
+}
+.box2{
+    flex:1;
+}
+.box3{
+    flex:1;
+}

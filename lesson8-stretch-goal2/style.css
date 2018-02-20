@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pic{
+    width: 250px;
+    height: 250px;
+    
+}
+
+.picContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.picGrid{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}

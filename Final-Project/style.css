@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color:white;
+    height: 100%;
+    margin: 0;
+}
+
+.footer,.push{
+    height: 50px;
+
+}
+
+.footer-items{
+    
+    background-color: rgb(70, 59, 59);
+    height: 50px;
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    
+    
+}
+
+.imgs{
+    display: flex;
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.nameTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: flex;
+    margin:0 auto;
+    color: black;
+    flex: 3;
+    
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: aqua;
+
+}
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.ico{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    flex: 1;
+    
+}
+.h4{
+    display: flex;
+    justify-content: center;
+
+}
+
+.align1{
+    display: flex;
+    align-items: center;
+}
+
+.techSkills{
+    margin-top:100px;
+    margin-left: -25px;
+}
+
+#repoLink{
+    display: flex;
+    width: 75px;
+    color:black;
+    font-family: 'Macondo', cursive;
+}

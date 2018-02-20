@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Final Project </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+<!-- div wrapper to keep footer attached to bottom of the page this div ends just above the footer and 
+wraps all content exept footer -->
+  <div class="wrapper">
+  <header>
+<!-- animated icon links -->
+      <a href="https://github.com/tockstaunt" target="_blank"><img class="ico" src="images/github-593088.ico"></a>
+      <a href="https://www.linkedin.com/in/keith-collier-b4a79b154" target="_blank"><img class="ico" src="images\linkedin-blue-linkedin-linkedin-logo-26757.ico"></a>
+      <a href="https://www.facebook.com/keith.collier.tock" target="_blank"><img class="ico" src="images\like-blue-facebook-facebook-facebook-logo-26750.ico"></a>
+  </header>
+<!-- my name and images of me and my kids didn't have any selfies -->
+  <h1 class="nameTitle"> Keith Collier, Full Time Father and Student</h1>
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+  <img class="imgs" id="img1" src="images\20160730_143144_2.jpg"><br>
+  <img class="imgs" id="img2" src="images\IMG_20171024_074753.jpg"><br>
+  <img class="imgs" id="img3" src="images\IMG_20170902_201610.jpg"><br>
+</div>
+<!-- tech skills div -->
+<div class="col-lg-4">
+  <h3 class="techSkills">My tech related skills are:</h3>
+  <ol>
+    <li>Computer Building</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>JQuery</li>    
+  </ol>
+    </div>
+  </div>
+</div>
+<!-- button and list for the repo links button set to be removed once clicked to keep from mltiple 
+function calls -->
+  <h4 class="h4">Find my GitHub repo at:</h4>
+  <ul class="list" id="ulRepo"></ul>
+  <button type="button" class="btn btn-info button1" onclick="loadRepo('https://api.github.com/users/tockstaunt/repos', loadRepoCallback)"><span class="glyphicon glyphicon-chevron-up "></span>click here for links</button>
+  
+<!-- empty div to stop sticky footer from moving to far up-->
+  <div class="push"></div>
+</div>
+<!-- footer -->
+  <footer class="footer">
+      <div class="footer-items"><span class="glyphicon glyphicon-envelope"></span>  My e-mail: tockstaunt@gmail.com</div>
+
+  </footer>
+<!-- scripts -->
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
